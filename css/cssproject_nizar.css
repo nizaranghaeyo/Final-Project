@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    padding: 0px;
+}
+
+.bg-pink {
+    background-color: rgb(159, 197, 232)
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: row;
+    font-size: 23px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-weight:400px;
+    padding: 0px;
+}
+
+/* WELCOME */
+.teks-wlm {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cabin Sketch', cursive;
+    color: black;
+}
+
+.gambar-slide {
+    background-color: #fff2cc;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* ABOUT */
+.bg-about {
+    background-color: rgb(255, 177, 215);
+    padding-top: 45px;
+    padding-bottom: 1px;
+    padding: 60px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about-detail {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-deskripsi {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 24px;
+    align-items: middle;
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* EXPERIENCES */
+.bg-exp {
+    background-color: rgb(197, 225, 185);
+    padding-bottom: 1px;
+    padding: 50px;
+
+}
+
+.teks-exp {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 23px;
+    padding-left: 60px;
+
+}
+
+/*EDUCATION */
+.bg-edu {
+    background-color: rgb(226, 173, 118);
+    padding-bottom: 1px;
+    padding: 50px;
+}
+
+.teks-edu {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 23px;
+    padding-left: 60px;
+}
+
+/*SKILLS */
+.bg-skl {
+    background-color: #eeeeee;
+    padding-bottom: 1px;
+    padding: 50px;
+}
+
+.tombol-skl {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 23px;
+    padding-left: 60px;
+}
+
+.btn-skl {
+    color: black;
+    background: yellow;
+    padding: 1%;
+    border-radius: 20%;
+}
+
+/* INTEREST */
+.bg-itr {
+    background-color: white;
+    padding: 50px;
+}
+
+.list-itr {
+    padding-left: 60px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 23px;
+    
+}
+
+/* AWARDS */
+.bg-award {
+    padding-bottom: 20px;
+    background-color: rgb(206,151,251);
+    padding: 50px;
+}
+
+.award-ttl {
+    background-color:  rgb(206,151,251);
+    padding-bottom: 2px;
+}
+
+.card-body {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    top: 0px;
+}

@@ -1,12 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Final Project Batch 7</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS BUATAN SENDIRI -->
+    <link rel="stylesheet" href="css/cssproject_nizar.css">
+    <!-- PAVICON -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
 </head>
-<body>
-    <h1>Final Project Batch 7</h1>
 
-    <script src="js/script.js"></script>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-pink">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#Welcome">NIZAR FAISAL NUGRAHA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experiences">EXPERIENCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Education">EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Interest">INTEREST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Awards">AWARDS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- WELCOME -->
+    <div id="Welcome" class="welcome">
+        <h2 class="teks-wlm"><span>&#127804</span>  WELCOME TO MY LANDING PAGE  <span>&#127803</span></h2>
+        <div class="gambar-slide">
+            <img name="slide" width="730" height="530" />
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="About" class="bg-about">
+        <h2>YES, I AM <span>&#128521</span></h2>
+        <div class="about-detail">
+            <img src="gambar/About.jpg" width="200" />
+            <div class="about-deskripsi">Nizar Faisal Nugraha adalah namanya.
+                Panggil aja Nizar kalau dibalik jadi Razin, aamiin<span>&#128519</span>. Tinggal di kota angin tapi
+                <em>alhamdulillah</em> tidak pernah masuk angin. Beliau ini masih ABG
+                dengan segala hasrat keingintahuannya yang tinggi membuat beliau memberanikan diri ikut kursus <b>"Belajar
+                Langkah Fundamental Untuk Menjadi Web Programmer"</b> bersama <b>Hacktiv8</b> melalui program Prakerja walau
+                pengetahuan akan materi kursus ini minim <em>hehe...</em>
+                Harapan beliau semoga ilmu yang didapat bermanfaat untuk menambah keterampilan dan semoga menjadi bekal
+                awal menjadi seorang programmer di masa mendatang.
+
+            </div>
+        </div>
+    </div>
+    <!-- Experiences -->
+    <div id="Experiences" class="bg-exp">
+        <h2>EXPERIENCES <span>&#128188</span></h2><br>
+        <ul class="teks-exp">
+            <li>
+                <b>AN HEALTHCARE FACILITY</b>
+                <ul>
+                    <li>Pembenah kerusakan disaat terjadi kerusakan sarana dan prasarana</li>
+                    <li>Pula menjadi petugas dokumentasi</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- EDUCATION -->
+    <div id="Education" class="bg-edu">
+        <h2>EDUCATION <span>&#127891</span></h2><br>
+        <ul class="teks-edu">
+            <li><b>(2018 - 2021) SMK Negeri 1 Majalengka</b>
+                <p>Kompetensi Keahlian Teknik Pemesinan<br>Nilai US **,**<br><b>Kegiatan Ekstrakulikuler :</b></p>
+                <ul>
+                    <li>Tim Paduan Suara, Kelas 10-12</li>
+                    <li>Klub Seni Lukis, Kelas 10-11</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- SKILLS -->
+    <div id="Skills" class="bg-skl">
+        <h2>SKILLS <span>&#127993;</span></h2><br>
+        <div class="tombol-skl">
+            <button class="btn-skl" onclick="mySkill()">Pencet Sekali Disini<span>&#128071</span></button>
+            <ol id="listSkill"></ol>
+        </div>
+        <script>
+
+        </script>
+    </div>
+
+
+    <!-- INTEREST -->
+    <div id="Interest" class="bg-itr">
+        <h2>INTEREST <span>&#127775;</span></h2><br>
+        <ul class="list-itr">
+            <li>Membaca cerita romansa</li>
+            <li>Steaming lagu di <em>spotify</em></li>
+            <li>Membaca <em>fun fact</em></li>
+            <li>Bersenandung</li>
+            <li>Jepret-jepret foto pemandangan</li>
+        </ul>
+    </div>
+
+    <!-- CAROUSEL AWARDS -->
+    <div id="Awards" class="bg-award">
+        <h2 class="award-ttl">AWARDS<span>&#127942</span></h2>
+        <div class="card" style="width: 18rem;">
+            <img src="gambar/Award.jpg" class="card-img-top" alt="Ini adalah penghargaan">
+            <div class="card-body">
+                <h5 class="card-title"><b>Sertifikat</b></h5>
+                <p class="card-text">Beliau sangat bangga karena dengan ini sebagai bukti bahwa
+                    beliau mampu melawan rasa malas membaca dan gerbang awal mengenal dunia "Literasi"
+                </p>
+                <a href="https://drive.google.com/file/d/16FgSEb8oaMgr-X2DM6JR43NQaY_xgsJT/view"
+                    class="btn btn-primary"><em>Full View</em></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS BOOTSTRAP -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- JS CUSTOM BUATAN SENDIRI -->
+    <script src="js/jsproject_nizar.js"></script>
 </body>
+
 </html>
